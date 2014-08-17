@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/activitySelectNewEventTypeBtnFood"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape"
+            android:onClick="onClicked"
+            android:text="@string/ui_btn_event_type_food" />
+
+        <Button
+            android:id="@+id/activitySelectNewEventTypeBtnSports"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape"
+            android:onClick="onClicked"
+            android:text="@string/ui_btn_event_type_sports" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/activitySelectNewEventTypeBtnStudy"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape"
+            android:onClick="onClicked"
+            android:text="@string/ui_btn_event_type_study" />
+
+        <Button
+            android:id="@+id/activitySelectNewEventTypeBtnMovie"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape"
+            android:onClick="onClicked"
+            android:text="@string/ui_btn_event_type_movie" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/activitySelectNewEventTypeBtnParty"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape"
+            android:onClick="onClicked"
+            android:text="@string/ui_btn_event_type_party" />
+
+        <Button
+            android:id="@+id/activitySelectNewEventTypeBtnAddNew"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape"
+            android:onClick="onClicked"
+            android:text="@string/ui_btn_event_type_add_new"
+            android:textAlignment="center"
+            android:textSize="50dp" />
+    </LinearLayout>
+
+</LinearLayout>

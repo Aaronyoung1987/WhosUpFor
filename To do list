@@ -1,0 +1,24 @@
+To do list:
+		push notification
+		FLAG to turn off .......
+		sorting events by it's starting time
+		register and sign in
+		search friend
+		post event to friends
+		filters
+		search friends' post
+		UI re-design
+		option to import friend list from other social medias
+		ads
+		
+		
+		
+		Map view of events and friend location(with option to switch off, probably an switch icon)
+		Providing transportation options (Google map direction, Uber)
+		In terms of dining, provide Yelp rating
+		
+		Sports: gyms, showing the availability (Uber and traffic)
+		
+		Algorithms: remembering the event type and the happening time in a day. 
+					when showing available events, the default order is corresponding to the most frequent event type
+					
